@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "movies/css/bootstrap.css" %}">
     <title>Iniciar Sesión</title>
 </head>
 <body>
@@ -19,5 +21,7 @@
     {% for message in messages %}
         <p>{{ message }}</p>
     {% endfor %}
+    <script src="{% static "movies" %}"></script>
+    <script src="{% static "" %}"></script>
 </body>
 </html>
